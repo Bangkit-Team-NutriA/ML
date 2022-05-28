@@ -1,0 +1,9 @@
+data/images.zip
+Notebook/EfficientNetV2L/models
+Notebook/RESNET50/models
+Notebook/EfficientNetV2LWithAugment/models
+Notebook/EfficientNetV2LWithAugmentDense+/models
+Notebook/EffinetV2L100withoutaug/models
+Notebook/EffnetV2L100Augment/models
+FinalModel/saved_model
+dataset/foto/meal
