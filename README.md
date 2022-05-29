@@ -44,7 +44,7 @@ For Deep learning we use 6 Architectures which are:"
 <br>
 
 # Efficient Net with augmentation
-## In graph show below, you can see that the model, the loss start to increase and the val accuracy is higher than training accuracy that mean the augmentation makes the model harder to classify class than not augment one.
+## this is the best model we made where the validation accuracy is converged in 79-80% and the training accuracy is 83%, from this plot we can see that the model isn't overfitting because the training accuracy and the validation accuracy gap isn't much than efficient net with augmentation. The model loss start increasing at epoch 5-15 and decresing again.
 
 ## <center>Model architecture</center>
 <p align="center">
@@ -99,7 +99,7 @@ For Deep learning we use 6 Architectures which are:"
 <br>
 
 # Efficient Net Without Augmentation
-## so far this is a best model we made, the accuracy is 90% and the val accuracy is almost 80% even tho, the loss start increasing, and that's we stop training the model because the model start becoming overfitting
+## sthis is the base model just efficient net and 1 classfication layer without augment or tuning and it turns out after epoch 2 the loss for validation start increasing.
 
 ## <center>Model architecture</center>
 <p align="center">
@@ -113,4 +113,4 @@ For Deep learning we use 6 Architectures which are:"
 <br>
 
 # Conclusion
-We took efficient net without augmentation because it's give best accuracy and best val accuracy.
+We took efficient net with augmentation because it's give best accuracy and best val accuracy and also it has converged and the gap between loss in training and validation kind of small so overfitting is avoided in this models.
